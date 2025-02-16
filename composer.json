@@ -1,0 +1,23 @@
+{
+    "name": "trijin/otus-email-validator",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Trijin\\OtusEmailValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex T Trijin",
+            "email": "trijin@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    }
+}
